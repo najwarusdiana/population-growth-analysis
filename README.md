@@ -1,14 +1,18 @@
 # Population Growth Analysis Using Logistic Model
 
-## Project Overview
-This project analyzes the population growth of Washington State, United States, from 1910 to 2020 using the logistic growth model.
+### Washington State Population Growth (1910–2020)
+
+## About the Project
+
+This project analyzes population growth in Washington State, United States, from 1910 to 2020 using the logistic growth model.
+
+<img width="691" height="450" alt="image" src="https://github.com/user-attachments/assets/c1a84529-f7e1-42a7-adcd-f99f2e2fee81" />
 
 ## Objectives
 - Analyze historical population data.
 - Apply the logistic growth model.
-- Estimate model parameters using numerical optimization.
+- Estimate model parameters using Python.
 - Evaluate prediction performance using MAPE.
-- Visualize actual and predicted population growth.
 
 ## Tools & Libraries
 - Python
@@ -17,19 +21,19 @@ This project analyzes the population growth of Washington State, United States, 
 - Matplotlib
 - SciPy
 
-## Methodology
-1. Data preparation
-2. Logistic growth modeling
-3. Parameter estimation
-4. Training and testing data splitting
-5. Model evaluation
-6. Data visualization
-
 ## Model Evaluation
-The model achieved a MAPE of 7.77% on the testing dataset (1990–2020).
+
+| Evaluation Metric | Result |
+|---|---:|
+| Testing MAPE | 7.77% |
+| Training Period | 1910–1980 |
+| Testing Period | 1990–2020 |
+<img width="691" height="453" alt="image" src="https://github.com/user-attachments/assets/c76be8ad-13ac-42b4-ae04-e207ac1a2a06" />
 
 ## Conclusion
-The logistic growth model provides a mathematical approach to understanding population growth patterns in Washington State. The testing results indicate an average absolute percentage prediction error of 7.77%.
+
+The logistic growth model provides a mathematical approach to understanding historical population growth patterns in Washington State. The model achieved a testing MAPE of 7.77%.
 
 ## Project Files
-- `population-growth-analysis.ipynb`: Python notebook containing the analysis, model implementation, evaluation, and visualization.
+
+- `population-growth-analysis.ipynb`: Contains the Python code, data analysis, model implementation, and evaluation.
